@@ -64,7 +64,7 @@ class KTT_Recommended_Plugins_List_Table extends WP_List_Table
 
     protected function get_table_classes()
     {
-        return array('widefat', 'plugins');
+        return array('wp-list-table', 'widefat', 'fixed', 'striped', 'table-view-list', 'plugins');
     }
 
     protected function get_row_classes(){

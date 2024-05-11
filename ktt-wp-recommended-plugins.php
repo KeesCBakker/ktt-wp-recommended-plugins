@@ -37,6 +37,10 @@ function ktt_add_recommended_plugins_menu() {
     .description::before {
         display: none !important;
     }
+
+    .wp-list-table td, .wp-list-table th {
+        box-shadow: inset 0 1px 0 rgba(0,0,0,.02),inset 0 -1px 0 #dcdcde
+    }
     </style>';
 }
 
