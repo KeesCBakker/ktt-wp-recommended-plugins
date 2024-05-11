@@ -1,30 +1,82 @@
 [
     {
-        "name": "Classic Editor",
-        "slug": "classic-editor",
-        "description": "Enables the previous ('classic') WordPress editor and the old-style Edit Post screen.",
-        "url": "https://wordpress.org/plugins/classic-editor/",
-        "category": "Editors"
+        "_name": "Admin Menu Editor",
+        "description": "Hiermee kun je direct het WordPress beheer menu bewerken. Je kunt bestaande menu's opnieuw ordenen, verbergen of hernoemen, aangepaste menu's toevoegen en meer.",
+        "slug": "admin-menu-editor"
     },
     {
-        "name": "Yoast SEO",
-        "slug": "wordpress-seo",
-        "description": "Improve your WordPress SEO.",
-        "url": "https://wordpress.org/plugins/wordpress-seo/",
-        "category": "SEO"
+        "_name": "Redis Object Cache",
+        "description": "Een persistent object cache backend aangedreven door redis. Ondersteunt predis, phpRedis, relay, replicatie, sentinels, clustering en WP-CLI.",
+        "slug": "redis-cache"
     },
     {
-        "name": "Contact Form 7",
-        "slug": "contact-form-7",
-        "description": "A simple but flexible contact form.",
-        "url": "https://wordpress.org/plugins/contact-form-7/",
-        "category": "Forms"
+        "_name": "SMTP Mailer",
+        "description": "Configure a SMTP server to send email from your WordPress site",
+        "slug": "smtp-mailer"
     },
     {
-        "name": "WPForms Lite",
-        "slug": "wpforms-lite",
-        "description": "Drag & drop form builder for WordPress.",
-        "url": "https://wordpress.org/plugins/wpforms-lite/",
-        "category": "Forms"
+        "_name": "WPForms Lite",
+        "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+        "slug": "wpforms-lite"
+    },
+    {
+        "_name": "Lightbox with PhotoSwipe",
+        "description": "Caroussel for WordPress using PhotoSwipe.",
+        "slug": "lightbox-photoswipe"
+    },
+    {
+        "_name": "Redirection",
+        "description": "Adds redirects support.",
+        "slug": "redirection"
+    },
+    {
+        "_name": "Remove Yoast SEO Comments",
+        "description": "Removes Yoast SEO Comments from your page.",
+        "slug": "remove-yoast-seo-comments"
+    },
+    {
+        "_name": "Safe SVG",
+        "description": "Adds SVG support",
+        "slug": "safe-svg"
+    },
+    {
+        "_name": "Simple Cloudflare Turnstile",
+        "description": "Adds Cloudflare Turnstile captcha to login form",
+        "slug": "simple-cloudflare-turnstile"
+    },
+    {
+        "_name": "Simple Featured Image",
+        "description": "Adds featured image to Post and Custom Post Type taxonomies.",
+        "slug": "simple-featured-image"
+    },
+    {
+        "_name": "Super Page Cache for Cloudflare",
+        "description": "Speed up your website by enabling page caching on a Cloudflare free plans.",
+        "slug": "wp-cloudflare-page-cache"
+    },
+    {
+        "_name": "WP Rollback",
+        "description": "Rollback (or forward) any WordPress.org plugin, theme or block like a boss.",
+        "slug": "wp-rollback"
+    },
+    {
+        "_name": "WPvivid Backup Plugin",
+        "description": "Clone or copy WP sites then move or migrate them to new host (new domain), schedule backups, transfer backups to leading remote storage. All in one.",
+        "slug": "wpvivid-backuprestore"
+    },
+    {
+        "_name": "WPvivid Imgoptim Free",
+        "description": "Optimize, compress and resize images in WordPress in bulk. Automatic image optimization, auto resize images upon upload.",
+        "slug": "wpvivid-imgoptim"
+    },
+    {
+        "_name": "Yoast SEO",
+        "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+        "slug": "wordpress-seo"
+    },
+    {
+        "_name": "Relevanssi",
+        "description": "Deze plugin vervangt de WordPress zoekfunctie met een zoekfunctie gesorteerd op relevantie.",
+        "slug": "relevanssi"
     }
 ]

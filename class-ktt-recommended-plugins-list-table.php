@@ -52,7 +52,7 @@ class KTT_Recommended_Plugins_List_Table extends WP_List_Table
 
     public function column_name($item)
     {
-        return sprintf('<strong>%s</strong>', $item['name']);
+        return sprintf('%s', $item['_name']);
     }
 
     protected function get_bulk_actions()
@@ -67,6 +67,10 @@ class KTT_Recommended_Plugins_List_Table extends WP_List_Table
         return array('widefat', 'plugins');
     }
 
+    protected function get_row_classes(){
+        return array('check-column', 'inactive');
+    }
+
     public function process_bulk_action()
     {
         if ('install_activate' === $this->current_action()) {
@@ -74,6 +78,8 @@ class KTT_Recommended_Plugins_List_Table extends WP_List_Table
 
             foreach ($plugins_to_install as $plugin_slug) {
                 $this->install_and_activate_plugin($plugin_slug);
+
+                sleep(2);
                 ob_flush();
                 flush();
             }
