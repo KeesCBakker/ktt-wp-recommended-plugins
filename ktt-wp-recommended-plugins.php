@@ -4,7 +4,7 @@
  * Plugin Name: KeesTalksTech Recommended Plugins
  * Plugin URI: https://github.com/KeesCBakker/ktt-wp-recommended-plugins
  * Description: Manages the installation and management of recommended plugins.
- * Version: 1.3.1
+ * Version: 1.3.2
  * Author: Kees C. Bakker
  * Author URI: https://keestalkstech.com/
  * License: MIT
