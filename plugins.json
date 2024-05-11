@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Classic Editor",
+        "slug": "classic-editor",
+        "description": "Enables the previous ('classic') WordPress editor and the old-style Edit Post screen.",
+        "url": "https://wordpress.org/plugins/classic-editor/",
+        "category": "Editors"
+    },
+    {
+        "name": "Yoast SEO",
+        "slug": "wordpress-seo",
+        "description": "Improve your WordPress SEO.",
+        "url": "https://wordpress.org/plugins/wordpress-seo/",
+        "category": "SEO"
+    },
+    {
+        "name": "Contact Form 7",
+        "slug": "contact-form-7",
+        "description": "A simple but flexible contact form.",
+        "url": "https://wordpress.org/plugins/contact-form-7/",
+        "category": "Forms"
+    },
+    {
+        "name": "WPForms Lite",
+        "slug": "wpforms-lite",
+        "description": "Drag & drop form builder for WordPress.",
+        "url": "https://wordpress.org/plugins/wpforms-lite/",
+        "category": "Forms"
+    }
+]

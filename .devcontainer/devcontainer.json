@@ -1,0 +1,13 @@
+{
+  "name": "PHP",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [
+    8882
+  ],
+  "mounts": [
+    "source=${localWorkspaceFolderBasename}-wp-now,target=/home/vscode/.wp-now,type=volume"
+
+
+  ],
+  "postStartCommand": "sudo chown vscode /home/vscode/.wp-now; /startup.sh"
+}
